@@ -1,0 +1,186 @@
+[0.000][INFO]:      ChromeDriver 23.0.1240.0 C:\Users\sarodays\AppData\Local\Google\Chrome\Application\chromedriver.exe
+[0.564][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.564][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[2.421][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.64
+[2.431][FINE]:      Command received (/session/339cc08606eab84f65dfc4b8b4be3666)
+[2.431][FINE]:      Command finished (/session/339cc08606eab84f65dfc4b8b4be3666) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.64",
+      "webStorageEnabled": true
+   }
+}
+
+[2.515][FINE]:      Command received (/session/339cc08606eab84f65dfc4b8b4be3666/timeouts/implicit_wait) with params {
+   "ms": 30000
+}
+
+[2.515][FINER]:     Waiting for all views to stop loading...
+[2.515][FINER]:     Done waiting for all views to stop loading
+[2.516][FINER]:     Waiting for all views to stop loading...
+[2.516][FINER]:     Done waiting for all views to stop loading
+[2.516][FINE]:      Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/timeouts/implicit_wait) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.518][FINE]:      Command received (/session/339cc08606eab84f65dfc4b8b4be3666/url) with params {
+   "url": "http://google.com/"
+}
+
+[2.518][FINER]:     Waiting for all views to stop loading...
+[2.519][FINER]:     Done waiting for all views to stop loading
+[11.820][FINER]:    Waiting for all views to stop loading...
+[11.821][FINER]:    Done waiting for all views to stop loading
+[11.821][FINE]:     Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/url) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[11.831][FINE]:     Command received (/session/339cc08606eab84f65dfc4b8b4be3666/title)
+[11.831][FINER]:    Waiting for all views to stop loading...
+[11.840][FINER]:    Done waiting for all views to stop loading
+[12.000][FINER]:    Waiting for all views to stop loading...
+[12.002][FINER]:    Done waiting for all views to stop loading
+[12.002][FINE]:     Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/title) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": "Google"
+}
+
+[12.008][FINE]:     Command received (/session/339cc08606eab84f65dfc4b8b4be3666/element) with params {
+   "using": "name",
+   "value": "q"
+}
+
+[12.008][FINER]:    Waiting for all views to stop loading...
+[12.009][FINER]:    Done waiting for all views to stop loading
+[12.022][FINER]:    Waiting for all views to stop loading...
+[12.023][FINER]:    Done waiting for all views to stop loading
+[12.023][FINE]:     Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/element) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1369642714256"
+   }
+}
+
+[12.052][FINE]:     Command received (/session/339cc08606eab84f65dfc4b8b4be3666/element/:wdc:1369642714256/value) with params {
+   "id": ":wdc:1369642714256",
+   "value": [ "Cheese" ]
+}
+
+[12.052][FINER]:    Waiting for all views to stop loading...
+[12.052][FINER]:    Done waiting for all views to stop loading
+[12.158][FINER]:    Waiting for all views to stop loading...
+[12.158][FINER]:    Done waiting for all views to stop loading
+[12.158][FINE]:     Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/element/:wdc:1369642714256/value) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[12.161][FINE]:     Command received (/session/339cc08606eab84f65dfc4b8b4be3666/element) with params {
+   "using": "id",
+   "value": "gbqfb"
+}
+
+[12.161][FINER]:    Waiting for all views to stop loading...
+[12.161][FINER]:    Done waiting for all views to stop loading
+[12.172][FINER]:    Waiting for all views to stop loading...
+[12.200][FINER]:    Done waiting for all views to stop loading
+[12.200][FINE]:     Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/element) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1369642714257"
+   }
+}
+
+[12.204][FINE]:     Command received (/session/339cc08606eab84f65dfc4b8b4be3666/element/:wdc:1369642714257/click) with params {
+   "id": ":wdc:1369642714257"
+}
+
+[12.204][FINER]:    Waiting for all views to stop loading...
+[12.204][FINER]:    Done waiting for all views to stop loading
+[12.230][WARNING]:  Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <span class="gbqfi"></span>
+[12.242][FINER]:    Waiting for all views to stop loading...
+[12.243][FINER]:    Done waiting for all views to stop loading
+[12.243][FINE]:     Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/element/:wdc:1369642714257/click) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[12.244][FINE]:     Command received (/session/339cc08606eab84f65dfc4b8b4be3666/element) with params {
+   "using": "link text",
+   "value": "Cheese - Wikipedia, the free encyclopedia"
+}
+
+[12.244][FINER]:    Waiting for all views to stop loading...
+[12.245][FINER]:    Done waiting for all views to stop loading
+[17.606][FINER]:    Waiting for all views to stop loading...
+[17.606][FINER]:    Done waiting for all views to stop loading
+[17.606][FINE]:     Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/element) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1369642714258"
+   }
+}
+
+[17.609][FINE]:     Command received (/session/339cc08606eab84f65dfc4b8b4be3666/element/:wdc:1369642714258/click) with params {
+   "id": ":wdc:1369642714258"
+}
+
+[17.609][FINER]:    Waiting for all views to stop loading...
+[17.609][FINER]:    Done waiting for all views to stop loading
+[17.686][WARNING]:  Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <em>...</em>
+[17.713][FINER]:    Waiting for all views to stop loading...
+[37.783][FINER]:    Done waiting for all views to stop loading
+[37.784][FINE]:     Command finished (/session/339cc08606eab84f65dfc4b8b4be3666/element/:wdc:1369642714258/click) with response {
+   "sessionId": "339cc08606eab84f65dfc4b8b4be3666",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[37.904][FINE]:     Command received (/session/339cc08606eab84f65dfc4b8b4be3666)
+[38.155][INFO]:     Chrome shutdown

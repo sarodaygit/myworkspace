@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<stackName>test01</stackName>
+	<PSHostURL></PSHostURL>
+	<services>
+		<onramp>
+		</onramp>
+	</services>
+</settings>

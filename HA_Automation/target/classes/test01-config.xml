@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<stackName>test01</stackName>
+	<printerSimulatorHost>http://loadrepo.ind.hp.com/PSRestUtils/v/1.0/printer/register</printerSimulatorHost>
+</settings>

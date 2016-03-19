@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">com.hp.SeleniumTests.NewTest</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">4.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">com.hp.SeleniumTests.NewTest &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="2">com.hp.SeleniumTests.NewTest<td><a href="#m1"><b>selectDefaultWindow</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>setUp</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">com.hp.SeleniumTests.NewTest &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="3">com.hp.SeleniumTests.NewTest<td><a href="#m3"><b>checkForVerificationErrors</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>getSelenium</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>setTestContext</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">com.hp.SeleniumTests.NewTest &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.hp.SeleniumTests.NewTest<td><a href="#m6"><b>setUp</b>  </a></td><td class="numi">1</td><td class="numi">2</td></tr>
+</table>
+<h1>com.hp.SeleniumTests.NewTest</h1>
+<a id="m1"></a><h2>com.hp.SeleniumTests.NewTest:selectDefaultWindow</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Couldn't create screenshot<br/>
+Connection refused: connect<br/>
+<h3>Failure</h3>
+<p>Connection refused: connect</p>
+com.thoughtworks.selenium.HttpCommandProcessor.executeCommandOnServlet(HttpCommandProcessor.java:121)
+<br/>at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:101)
+<br/>at com.thoughtworks.selenium.DefaultSelenium.selectWindow(DefaultSelenium.java:377)
+<br/>at com.thoughtworks.selenium.SeleneseTestNgHelper.selectDefaultWindow(SeleneseTestNgHelper.java:92)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+<br/>at java.lang.reflect.Method.invoke(Method.java:597)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:503)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:193)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:710)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:799)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:1098)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:727)
+<br/>at org.testng.TestRunner.run(TestRunner.java:581)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:315)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:310)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:272)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:221)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:40)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:83)
+<br/>at org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:151)
+<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+<br/>at java.lang.Thread.run(Thread.java:619)
+<br/>1 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.PlainSocketImpl.socketConnect(Native Method)
+<br/>at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+<br/>at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+<br/>at java.net.Socket.connect(Socket.java:525)
+<br/>at java.net.Socket.connect(Socket.java:475)
+<br/>at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+<br/>at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+<br/>at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+<br/>at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:233)
+<br/>at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+<br/>at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+<br/>at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:860)
+<br/>at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:801)
+<br/>at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:726)
+<br/>at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:904)
+<br/>at com.thoughtworks.selenium.HttpCommandProcessor.getOutputStreamWriter(HttpCommandProcessor.java:149)
+<br/>at com.thoughtworks.selenium.HttpCommandProcessor.getCommandResponseAsString(HttpCommandProcessor.java:176)
+<br/>at com.thoughtworks.selenium.HttpCommandProcessor.executeCommandOnServlet(HttpCommandProcessor.java:118)
+<br/>at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:101)
+<br/>at com.thoughtworks.selenium.DefaultSelenium.selectWindow(DefaultSelenium.java:377)
+<br/>at com.thoughtworks.selenium.SeleneseTestNgHelper.selectDefaultWindow(SeleneseTestNgHelper.java:92)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+<br/>at java.lang.reflect.Method.invoke(Method.java:597)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:503)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:193)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:710)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:799)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:1098)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:727)
+<br/>at org.testng.TestRunner.run(TestRunner.java:581)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:315)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:310)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:272)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:221)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:40)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:83)
+<br/>at org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:151)
+<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+<br/>at java.lang.Thread.run(Thread.java:619)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.hp.SeleniumTests.NewTest:setUp</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">null</td>
+<td style="padding-left:.5em;padding-right:2em">null</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+<h3>Test Messages</h3>
+Couldn't create screenshot<br/>
+Connection refused: connect<br/>
+<h3>Failure</h3>
+<p>Could not contact Selenium Server; have you started it on &apos;localhost:4444&apos; ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect</p>
+com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:104)
+<br/>at com.thoughtworks.selenium.SeleneseTestBase.setUp(SeleneseTestBase.java:134)
+<br/>at com.thoughtworks.selenium.SeleneseTestBase.setUp(SeleneseTestBase.java:103)
+<br/>at com.thoughtworks.selenium.SeleneseTestNgHelper.setUp(SeleneseTestNgHelper.java:47)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+<br/>at java.lang.reflect.Method.invoke(Method.java:597)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:640)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:503)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:193)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:123)
+<br/>at org.testng.TestRunner.beforeRun(TestRunner.java:605)
+<br/>at org.testng.TestRunner.run(TestRunner.java:573)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:315)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:310)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:272)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:221)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:40)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:83)
+<br/>at org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:151)
+<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+<br/>at java.lang.Thread.run(Thread.java:619)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.hp.SeleniumTests.NewTest:checkForVerificationErrors</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.hp.SeleniumTests.NewTest:getSelenium</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.hp.SeleniumTests.NewTest:setTestContext</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.hp.SeleniumTests.NewTest:setUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

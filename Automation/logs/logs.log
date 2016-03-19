@@ -1,0 +1,28 @@
+11/Aug/2015 15:43:45,419- DBConnector: login as db user :- eprint
+11/Aug/2015 15:43:45,426- DBConnector: login as db user :- eprint
+11/Aug/2015 15:43:46,106- MultiThreadJobSubmit: Retrieving Testcases information for Execution
+11/Aug/2015 15:43:46,106- MultiThreadJobSubmit: Intiated TestCaseses Execution Cycle
+11/Aug/2015 15:43:46,111- MultiThreadJobSubmit: Generating Authorization Tokens for awtu326adu94@stage2.hp-webplatform.com
+11/Aug/2015 15:43:46,111- OAuthGen: stage2
+
+11/Aug/2015 15:43:49,569- DBConnector: Shard details of printer email addressnull
+11/Aug/2015 15:43:49,570- OAuthGen: Oauth is present for the printer 
+OAuth oauth_consumer_key=1127bd7a6e76102d92b012313dlfpdf6,oauth_signature_method=PLAINTEXT,oauth_token=3d27a394-61dc-4586-8c8a-4076a6172575,oauth_signature=1127bda2-6e76-102d-92b0-12313dlfpdf6%26e23njiP7aeLkGLzLK4DznSZ02AnlJckHlQHT2SqumCk%253D
+11/Aug/2015 15:43:49,570- MultiThreadJobSubmit: Authorization Token retrieved for awtu326adu94@stage2.hp-webplatform.com
+11/Aug/2015 15:43:49,589- JobExecutor: Executing Test :- "Test PDF JOB" on awtu326adu94@stage2.hp-webplatform.com
+11/Aug/2015 15:44:01,985- JobExecutor: Posted the job for Test PDF JOB = 403
+11/Aug/2015 15:44:04,889- DBConnector: Shard details of printer email addressnull
+11/Aug/2015 16:04:15,666- DBConnector: login as db user :- eprint
+11/Aug/2015 16:04:15,672- DBConnector: login as db user :- eprint
+11/Aug/2015 16:04:16,314- MultiThreadJobSubmit: Retrieving Testcases information for Execution
+11/Aug/2015 16:04:16,314- MultiThreadJobSubmit: Intiated TestCaseses Execution Cycle
+11/Aug/2015 16:04:16,319- MultiThreadJobSubmit: Generating Authorization Tokens for awtu326adu94@stage2.hp-webplatform.com
+11/Aug/2015 16:04:16,319- OAuthGen: stage2
+
+11/Aug/2015 16:04:20,169- DBConnector: Shard details of printer email addressnull
+11/Aug/2015 16:04:20,170- OAuthGen: Oauth is present for the printer 
+OAuth oauth_consumer_key=1127bd7a6e76102d92b012313dlfpdf6,oauth_signature_method=PLAINTEXT,oauth_token=3d27a394-61dc-4586-8c8a-4076a6172575,oauth_signature=1127bda2-6e76-102d-92b0-12313dlfpdf6%26e23njiP7aeLkGLzLK4DznSZ02AnlJckHlQHT2SqumCk%253D
+11/Aug/2015 16:04:20,170- MultiThreadJobSubmit: Authorization Token retrieved for awtu326adu94@stage2.hp-webplatform.com
+11/Aug/2015 16:04:20,191- JobExecutor: Executing Test :- "Test PDF JOB" on awtu326adu94@stage2.hp-webplatform.com
+11/Aug/2015 16:04:24,610- JobExecutor: Posted the job for Test PDF JOB = 403
+11/Aug/2015 16:04:28,229- DBConnector: Shard details of printer email addressnull

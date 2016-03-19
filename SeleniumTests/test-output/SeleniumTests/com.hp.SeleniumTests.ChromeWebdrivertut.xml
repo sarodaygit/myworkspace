@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hp.SeleniumTests.ChromeWebdrivertut" failures="0" tests="1" time="18.461" errors="0">
+  <properties/>
+  <testcase name="chrometest" time="15.057" classname="com.hp.SeleniumTests.ChromeWebdrivertut"/>
+</testsuite>

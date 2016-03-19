@@ -1,0 +1,20 @@
+<testng-results>
+  <reporter-output>
+    <line>
+      <![CDATA[<h4>JEF TEST SUITE REPORTS</h4>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Reporter Listener is CalledT</p>]]>
+    </line>
+  </reporter-output>
+  <suite name="SampleTestNG" duration-ms="361" started-at="2013-03-02T18:51:28Z" finished-at="2013-03-02T18:51:28Z">
+    <groups>
+    </groups>
+    <test name="com.hp.cloudprint.RunTest" duration-ms="361" started-at="2013-03-02T18:51:28Z" finished-at="2013-03-02T18:51:28Z">
+      <class name="com.hp.cloudprint.RunTest">
+        <test-method status="PASS" signature="TestRunner()" name="TestRunner" duration-ms="349" started-at="2013-03-02T18:51:28Z" finished-at="2013-03-02T18:51:28Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

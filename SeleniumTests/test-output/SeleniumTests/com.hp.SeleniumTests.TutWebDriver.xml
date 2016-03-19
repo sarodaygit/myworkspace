@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hp.SeleniumTests.TutWebDriver" failures="0" tests="1" time="48.363" errors="0">
+  <properties/>
+  <testcase name="func" time="37.129" classname="com.hp.SeleniumTests.TutWebDriver"/>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="15" started-at="2012-11-29T19:35:40Z" finished-at="2012-11-29T19:35:40Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="15" started-at="2012-11-29T19:35:40Z" finished-at="2012-11-29T19:35:40Z">
+      <class name="com.hp.cloudprint.AppTest">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="15" started-at="2012-11-29T19:35:40Z" finished-at="2012-11-29T19:35:40Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

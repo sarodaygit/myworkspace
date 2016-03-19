@@ -1,0 +1,2 @@
+hostname	deviceEmailId
+10.118.35.202	27ovge23oiwal@dev02.hp-webplatform.com

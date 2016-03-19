@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<TestSuite>
+	<Test>
+		<name>com.hp.cloudprint.Testcase1</name>
+		<run>yes</run>
+	</Test>
+	<Test>
+		<name>com.hp.cloudprint.Testcase2</name>
+		<run>yes</run>
+	</Test>
+</TestSuite>

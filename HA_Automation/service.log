@@ -1,0 +1,23 @@
+Last login: Thu Feb  5 09:46:01 2015 from 16.185.90.5
+*****************************************************************
+*                                                               *
+* This is a private system; explicit authorization from the     *
+* system owner is required for access or use.                   *
+*                                                               *
+* Unauthorized access or use may result in severe civil and/or  *
+* criminal liability including without limitation under 18 USC  *
+* Sections 1030 et seq.                                         *
+*                                                               *
+* All rights whatsoever are reserved.                           *
+*                                                               *
+*****************************************************************
+[sarodays@c0003203 ~]$ cd /opt/mount/apps/ms/init.d
+[sarodays@c0003203 init.d]$ 
+[sarodays@c0003203 init.d]$ sudo su
+[root@c0003203 init.d]# 
+[root@c0003203 init.d]# ./tomcat start
+Starting Tomcat:  [60G[[0;32m  OK  [0;39m]
+[root@c0003203 init.d]# 
+[root@c0003203 init.d]# ./tomcat status > op.log
+[root@c0003203 init.d]# 
+[root@c0003203 init.d]# 

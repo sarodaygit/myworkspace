@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" configfailurepolicy="skip" verbose="1" name="Failed suite [SeleniumTests]" skipfailedinvocationcounts="false" parallel="false" annotations="JDK" data-provider-thread-count="10">
+  <test verbose="1" name="com.hp.SeleniumTests.NewTest(failed)" junit="false" parallel="false" annotations="JDK">
+    <classes>
+      <class name="com.hp.SeleniumTests.NewTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="attachScreenshotListener"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="selectDefaultWindow"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
